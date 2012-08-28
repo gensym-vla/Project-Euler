@@ -2,7 +2,7 @@ from utils.sieve import is_prime
 
 def diag_num():
     """
-    returns the diagonal values at the (i+1)-th iteration,
+    returns the diagonal values at the (i+1)-st iteration,
     as the last value is always a square, we don't include it in the output
     """
     val  = [1,1,1]
