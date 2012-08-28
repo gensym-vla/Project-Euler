@@ -1,4 +1,3 @@
-from math import sqrt
 from utils.sieve import is_prime
 
 def diag_num():
