@@ -26,4 +26,5 @@ def solve():
             if len(fam.intersection(primes)) >= 8:
                 print fam.intersection(primes)
                 print "Answer to PE51 is {0}".format(min(fam.intersection(primes)))
+                return min(fam.intersection(primes))
 solve()
